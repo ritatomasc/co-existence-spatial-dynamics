@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -19,4 +22,105 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.ExperienceContainer{
+  display: flex;
+}
+
+.ExperienceWrapper{
+  height: 100 vh;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+}
+.Latice{
+  flex: 1;
+  height: auto;
+  padding: 55px 20px;
+  background-color: #282c34;
+}
+
+.grid-container {
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.grid-item{
+  font-size: 20px; 
+
+
+  width: 5px;
+  height: 5px;
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.grid-itemXXL {
+  font-size: 20px; 
+  margin: 1px ;
+
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.container-row{
+  display: flex;  
+}
+.InputSliderWrapper{
+  margin: 50px 10px;
+}
+
+.Commands{
+  flex: 1;
+  height: auto;
+  padding: 55px 20px;
+  background-color: darkseagreen;
+}
+.ButtonsWrapper{
+  display: flex;
+  margin-bottom: 15px;
+}
+.NormalButton{
+  margin:15px auto;
+  background-color: lightblue;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.SelectedButton{
+  margin:15px auto;
+  /* border: 1px solid steelblue; */
+  background-color: steelblue;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.ConfigBox{
+  color:wheat;
+}
+.PlotContainer{
+  width: 875px;
+  height: 350px;
+  margin: 15px;;
+  font-family: 'Montserrat', sans-serif;
 }
